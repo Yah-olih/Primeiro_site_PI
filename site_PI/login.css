@@ -1,0 +1,74 @@
+.banner{
+    background-image: url("./img_PI/bg-jelly-fish-para_outras_pags.png"); 
+    padding: 100px 0;
+    background-size: cover;
+    height: 95vh;
+}
+
+.banner .container{
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    /* background-color: white; */
+}
+
+.caixa-formulario{
+    background-color: #e5e5e5;
+    padding: 50px 100px;
+
+    /* deixando redondinho */
+    border-radius: 10px; 
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixa-formulario h2{
+    color: palevioletred;
+    margin-bottom: 20px;
+}
+
+.campo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.campo label{
+    color: palevioletred;
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+.campo input{
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #32b9cd;
+    
+}
+
+.caixa-formulario button{
+    margin-top: 20px;
+    width: 120px;
+    color: #fff;
+    background-color: #e6005a;
+    padding: 10px 20px;
+    font-weight: bold;
+    border: nome;
+    border-radius: 5px;
+    /* mostra a maozinha no botão */
+    cursor: pointer
+}
+ /* mudando a cor do botão quando colocado o mause em cima  */
+.caixa-formulario button:hover {
+    opacity: o.8;
+    /* background-color: #32b9cd; */
+
+    /* pesquisar por cssgenerator.org / box shandow / fazendo a sompra de fundo */
+    box-shadow: 11px 11px 13px -10px rgba(0,0,0,0.56);
+    -webkit-box-shadow: 11px 11px 13px -10px rgba(0,0,0,0.56);
+    -moz-box-shadow: 11px 11px 13px -10px rgba(0,0,0,0.56);
+}
