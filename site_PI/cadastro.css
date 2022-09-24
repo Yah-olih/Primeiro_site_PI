@@ -4,3 +4,87 @@
     background-size: cover;
     height: 95vh;
 }
+.banner .container{
+    /* ocupar 100% da pagina */
+    height: 100%;
+    /* alinha ao centro da pagina */
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario-cadastro{
+    /* colocando uma cor na caixa de formulario */
+    background-color: #e5e5e5;
+    /* espandindo a caisa  */
+    padding: 50px 100px;
+    /* deixando a borda da caixa redondinha */
+    border-radius: 10px;
+    /* alinhando os campos */
+    display: flex;
+    /* deixando em coluna */
+    flex-direction: column;
+    /* alinha os campos no centro */
+    align-items: center;
+    justify-content:center ;
+}
+
+.formulario-cadastro h2{
+    /* mudar cor da letra */
+    color: palevioletred;
+    /* da um espaço entre o campo e o titulo */
+    margin-bottom: 20px;
+}
+
+.campo {
+    /* deixa alinhado */
+    display: flex; 
+    /* aalinha em coluna */
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.campo label{
+    /* mudar a cor do nomes */
+    color: palevioletred;
+    font-size: 20px;
+    /* da um espaço entre o input */
+    padding: 10px 0;
+}
+
+.campo input {
+    /* aumentar o input */
+    padding: 10px;
+    /* deixa a borda rendoda  */
+    border-radius: 5px;
+    /* da uma borda em volta do input */
+    border: 2px solid #32b9cd;
+}
+
+.formulario-cadastro button{
+    /* da uma margem e espaço com o que esta em volta */
+    margin-top: 20px;
+    /* aumentar a largura do botão */
+    width: 120px;
+    /* mudar a cor da letra */
+    color: #fff;
+    /* mudar a cor do botao */
+    background-color: #e6005a;
+    /* mudar a cor do botaõ */
+    padding: 10px 20px;
+    /* deixa em negrito a letra */
+    font-weight: bold;
+    border: nome;
+    /* deixa a ponta da borda redonda */
+    border-radius: 5px;
+    /* mostra a mãozinhar dentro do botãp */
+    cursor: pointer;
+}
+
+.formulario-cadastro button:hover{
+    opacity: 0.8;
+    /* deixa uma sombra no fundo quando o mause passar por cima*/
+    box-shadow: 11px 11px 13px -10px rgba(0,0,0,0.56);
+    -webkit-box-shadow: 11px 11px 13px -10px rgba(0,0,0,0.56);
+    -moz-box-shadow: 11px 11px 13px -10px rgba(0,0,0,0.56);
+}

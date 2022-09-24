@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="estilo-gerais.css">
+    <link rel="stylesheet" href="cadastro.css">
 </head>
 <body>
     <!-- header -->
@@ -32,11 +33,27 @@
             <div class="container">
                 <div class="formulario-cadastro">
                     <h2>Cadastro</h2>
+
                     <div class="campo">
-                        
+                        <label for="nome">Nome</label>
+                        <input type="nome" name="nome" id="nome" placeholder="Seu Nome">
                     </div>
-                    <div class="campo"></div>
-                    <div class="campo"></div>
+
+                    <div class="campo">
+                      <label for="email">Email</label>
+                      <input type="email" name="email" id="email" placeholder="SeuEmail@gmail.com">
+                    </div>
+
+                    <div class="campo">
+                      <label for="senha">Senha</label>
+                      <input type="senha" name="email" id="email" placeholder="*************">
+                    </div>
+
+                    <div class="campo">
+                      <label for="confirmacao_senha">Confirmação da Senha</label>
+                      <input type="confirmacao_senha" name="confirmacao_senha" id="confirmacao_senha" placeholder="*************" >
+                    </div>
+                    <button>Cadastrar</button>
                 </div>
             </div>
         </section>
